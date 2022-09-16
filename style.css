@@ -4,14 +4,28 @@
     background: -webkit-linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: 200px;
 }
-div{
+#utils{
+    height: 50px;
+}
+#signIn {
+    background-image: linear-gradient(red, yellow);
+    left: 50px;
+}
+
+#password {
+    background-image: linear-gradient(red, yellow);
+    right: 50px;
+}
+
+div {
     text-align: center;
 }
 
 #picture {
-    
-    left:100px;
+
+    left: 100px;
     width: 300px;
     height: auto;
     object-fit: cover;
